@@ -1,0 +1,3 @@
+
+set -x 
+ssh node1 rm /mnt/ephemeral/cassandra/.hugefile

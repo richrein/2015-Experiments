@@ -4,7 +4,7 @@
 printf "%10s %-16s %-16s\n" "" "External" "Internal"
 for node in node0_ext node1_ext node2_ext node3_ext node4_ext node5_ext node6_ext node7_ext node8_ext
 do
-	ipExt=`ssh $node curl -s icanhazip.com`
-	ipInt=`ssh $node ifconfig eth0 | grep "inet addr" | awk -F: '{print $2}' | awk '{print $1}'`
+	ipExt=`ssh -o ConnectTimeout=15 $node curl -s icanhazip.com`
+	ipInt=`ssh -o ConnectTimeout=15 $node ifconfig eth0 | grep "inet addr" | awk -F: '{print $2}' | awk '{print $1}'`
 	printf "%10s %-16s %-16s\n" "$node:" "$ipExt" "$ipInt"
 done
