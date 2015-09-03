@@ -1,0 +1,156 @@
+                                                                               yaml                                             ./yaml                                           yaml.old
+52.25.211.245                                           cluster_name: "Confusion 1"                        cluster_name: "Confusion 1"                       cluster_name: 'Test Cluster'
+52.88.115.152                                           cluster_name: "Confusion 1"                        cluster_name: "Confusion 1"                       cluster_name: 'Test Cluster'
+52.10.159.131                                           cluster_name: "Confusion 1"                        cluster_name: "Confusion 1"                       cluster_name: 'Test Cluster'
+52.88.128.159                                           cluster_name: "Confusion 1"                        cluster_name: "Confusion 1"                       cluster_name: 'Test Cluster'
+52.88.142.104                                           cluster_name: "Confusion 1"                        cluster_name: "Confusion 1"                       cluster_name: 'Test Cluster'
+52.76.93.115                                            cluster_name: "Confusion 1"                        cluster_name: "Confusion 1"                       cluster_name: 'Test Cluster'
+52.76.31.69                                             cluster_name: "Confusion 1"                        cluster_name: "Confusion 1"                       cluster_name: 'Test Cluster'
+52.76.36.17                                             cluster_name: "Confusion 1"                        cluster_name: "Confusion 1"                       cluster_name: 'Test Cluster'
+52.76.110.26                                            cluster_name: "Confusion 1"                        cluster_name: "Confusion 1"                       cluster_name: 'Test Cluster'
+
+                                                                               yaml                                             ./yaml                                           yaml.old
+52.25.211.245                                                         # num_tokens:                                      # num_tokens:                                    num_tokens: 256
+52.88.115.152                                                         # num_tokens:                                      # num_tokens:                                    num_tokens: 256
+52.10.159.131                                                         # num_tokens:                                      # num_tokens:                                    num_tokens: 256
+52.88.128.159                                                         # num_tokens:                                      # num_tokens:                                    num_tokens: 256
+52.88.142.104                                                         # num_tokens:                                      # num_tokens:                                    num_tokens: 256
+52.76.93.115                                                          # num_tokens:                                      # num_tokens:                                    num_tokens: 256
+52.76.31.69                                                           # num_tokens:                                      # num_tokens:                                    num_tokens: 256
+52.76.36.17                                                           # num_tokens:                                      # num_tokens:                                    num_tokens: 256
+52.76.110.26                                                          # num_tokens:                                      # num_tokens:                                    num_tokens: 256
+
+                                                                               yaml                                             ./yaml                                           yaml.old
+52.25.211.245                                   initial_token: -9223372036854775808                initial_token: -9223372036854775808                                   # initial_token:
+52.88.115.152                                   initial_token: -5534023222112865485                initial_token: -5534023222112865485                                   # initial_token:
+52.10.159.131                                   initial_token: -1844674407370955162                initial_token: -1844674407370955162                                   # initial_token:
+52.88.128.159                                    initial_token: 1844674407370955161                 initial_token: 1844674407370955161                                   # initial_token:
+52.88.142.104                                    initial_token: 5534023222112865484                 initial_token: 5534023222112865484                                   # initial_token:
+52.76.93.115                                    initial_token: -6917529027641081856                initial_token: -6917529027641081856                                   # initial_token:
+52.76.31.69                                     initial_token: -2305843009213693952                initial_token: -2305843009213693952                                   # initial_token:
+52.76.36.17                                      initial_token: 2305843009213693952                 initial_token: 2305843009213693952                                   # initial_token:
+52.76.110.26                                     initial_token: 6917529027641081856                 initial_token: 6917529027641081856                                   # initial_token:
+
+                                                                               yaml                                             ./yaml                                           yaml.old
+52.25.211.245                             max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours
+52.88.115.152                             max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours
+52.10.159.131                             max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours
+52.88.128.159                             max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours
+52.88.142.104                             max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours
+52.76.93.115                              max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours
+52.76.31.69                               max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours
+52.76.36.17                               max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours
+52.76.110.26                              max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours          max_hint_window_in_ms: 10800000 # 3 hours
+
+                                                                               yaml                                             ./yaml                                           yaml.old
+52.25.211.245                                         max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2
+52.88.115.152                                         max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2
+52.10.159.131                                         max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2
+52.88.128.159                                         max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2
+52.88.142.104                                         max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2
+52.76.93.115                                          max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2
+52.76.31.69                                           max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2
+52.76.36.17                                           max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2
+52.76.110.26                                          max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2                      max_hints_delivery_threads: 2
+
+                                                                               yaml                                             ./yaml                                           yaml.old
+52.25.211.245                                  batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024
+52.88.115.152                                  batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024
+52.10.159.131                                  batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024
+52.88.128.159                                  batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024
+52.88.142.104                                  batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024
+52.76.93.115                                   batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024
+52.76.31.69                                    batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024
+52.76.36.17                                    batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024
+52.76.110.26                                   batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024               batchlog_replay_throttle_in_kb: 1024
+
+                                                                               yaml                                             ./yaml                                           yaml.old
+52.25.211.245                    authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator
+52.88.115.152                    authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator
+52.10.159.131                    authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator
+52.88.128.159                    authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator
+52.88.142.104                    authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator
+52.76.93.115                     authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator
+52.76.31.69                      authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator
+52.76.36.17                      authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator
+52.76.110.26                     authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator authenticator: AllowAllAuthenticator
+# internode_authenticator: org.apache.cassandra.auth.AllowAllInternodeAuthenticator
+
+                                                                               yaml                                             ./yaml                                           yaml.old
+52.25.211.245                                        authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer
+52.88.115.152                                        authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer
+52.10.159.131                                        authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer
+52.88.128.159                                        authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer
+52.88.142.104                                        authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer
+52.76.93.115                                         authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer
+52.76.31.69                                          authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer
+52.76.36.17                                          authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer
+52.76.110.26                                         authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer                     authorizer: AllowAllAuthorizer
+
+                                                                               yaml                                             ./yaml                                           yaml.old
+52.25.211.245                                      permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000
+52.88.115.152                                      permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000
+52.10.159.131                                      permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000
+52.88.128.159                                      permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000
+52.88.142.104                                      permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000
+52.76.93.115                                       permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000
+52.76.31.69                                        permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000
+52.76.36.17                                        permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000
+52.76.110.26                                       permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000                   permissions_validity_in_ms: 2000
+
+                                                                               yaml                                             ./yaml                                           yaml.old
+52.25.211.245                             # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000
+52.88.115.152                             # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000
+52.10.159.131                             # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000
+52.88.128.159                             # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000
+52.88.142.104                             # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000
+52.76.93.115                              # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000
+52.76.31.69                               # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000
+52.76.36.17                               # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000
+52.76.110.26                              # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000          # permissions_update_interval_in_ms: 1000
+
+                                                                               yaml                                             ./yaml                                           yaml.old
+52.25.211.245                    partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner
+52.88.115.152                    partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner
+52.10.159.131                    partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner
+52.88.128.159                    partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner
+52.88.142.104                    partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner
+52.76.93.115                     partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner
+52.76.31.69                      partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner
+52.76.36.17                      partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner
+52.76.110.26                     partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner partitioner: org.apache.cassandra.dht.Murmur3Partitioner
+
+                                                                               yaml                                             ./yaml                                           yaml.old
+52.25.211.245                                                data_file_directories:                             data_file_directories:                             data_file_directories:
+52.88.115.152                                                data_file_directories:                             data_file_directories:                             data_file_directories:
+52.10.159.131                                                data_file_directories:                             data_file_directories:                             data_file_directories:
+52.88.128.159                                                data_file_directories:                             data_file_directories:                             data_file_directories:
+52.88.142.104                                                data_file_directories:                             data_file_directories:                             data_file_directories:
+52.76.93.115                                                 data_file_directories:                             data_file_directories:                             data_file_directories:
+52.76.31.69                                                  data_file_directories:                             data_file_directories:                             data_file_directories:

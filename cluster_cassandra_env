@@ -1,0 +1,7 @@
+
+
+
+for node in node0_ext node1_ext node2_ext node3_ext node4_ext node5_ext node6_ext node7_ext
+do
+	printf "$node: %s\n" `ssh $node diff /etc/cassandra/{.,}cassandra-env.sh`
+done

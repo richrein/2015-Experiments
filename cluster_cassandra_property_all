@@ -1,0 +1,35 @@
+
+
+node=`cluster_ips_ext | head -n 1`
+ssh $node grep '[a-zA-Z0-9]:' /etc/cassandra/cassandra.yaml | sed -e 's|\([^:]\):.*|\1|' \
+| egrep -v '[a-zA-Z0-9]\s' \
+| grep -v 'http' \
+| grep -v 'NOTE' \
+| grep -v 'Warning' \
+| grep -v 'See' \
+| grep -v 'and' \
+| sed -e 's|#||' -e 's|-||g' -e 's|\s*||g' -e 's|[^ ] ||g' \
+| grep -v 'die\$' \
+| grep -v 'stop_paranoid\$' \
+| grep -v 'stop\$' \
+| grep -v 'best_effort\$' \
+| grep -v 'ignore\$' \
+| grep -v 'die\$' \
+| grep -v 'stop\$' \
+| grep -v 'stop_commit\$' \
+| grep -v 'ignore\$' \
+| grep -v 'memory_allocator\$' \
+| grep -v 'seed_provider\$' \
+| grep -v 'parameters\$' \
+| grep -v 'Ex\$' \
+| grep -v 'memtable_allocation_type\$' \
+| grep -v 'SimpleSnitch\$' \
+| grep -v 'PropertyFileSnitch\$' \
+| grep -v 'Ec2Snitch\$' \
+| grep -v 'Ec2MultiRegionSnitch\$' \
+| grep -v 'RackInferringSnitch\$' \
+| grep -v 'Keyspace1\$' \
+| grep -v 'Keyspace2\$' \
+| grep -v 'internode_encryption\$' \
+| grep -v 'require_client_auth\$' \
+

@@ -1,0 +1,8 @@
+
+
+
+for node in `cluster_ips_ext`
+do
+	printf "$node: %s\n" `ssh $node diff /etc/cassandra/{.,}cassandra.yaml`
+	printf "$node: %s\n" `ssh $node diff /etc/cassandra/cassandra.yaml{.old,}`
+done
