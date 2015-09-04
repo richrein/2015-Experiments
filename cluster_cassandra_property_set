@@ -1,0 +1,7 @@
+
+
+
+for node in `cluster_ips_ext`
+do
+	ssh $node df -h | (printf "%s:    " $node; grep mnt)
+done

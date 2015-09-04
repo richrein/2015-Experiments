@@ -1,0 +1,8 @@
+
+set -x
+
+for node in `cluster_ips_ext`
+do
+	ssh $node cp '/etc/cassandra/cassandra.yaml{,.20150804}'
+	ssh $node cp '/etc/cassandra/cassandra-env.sh{,.20150804}'
+done
