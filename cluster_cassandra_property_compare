@@ -1,0 +1,16 @@
+
+
+if [ x"$1" == x ] ; then
+	echo Missing keyword such as \"seeds\"
+	exit
+fi
+pattern="$1:"
+
+printf "%-32s %50s %50s %50s\n" "" "yaml" "./yaml" "yaml.old"
+for node in `cluster_ips_ext`
+do
+	yaml_final="`ssh $node grep $pattern \< /etc/cassandra/cassandra.yaml   2>&1`"
+	yaml_dot="`ssh $node grep $pattern \< /etc/cassandra/.cassandra.yaml    2>&1`"
+	yaml_old="`ssh $node grep $pattern \< /etc/cassandra/cassandra.yaml.old 2>&1`"
+	printf "%-32s %50s %50s %50s\n" "$node" "$yaml_final" "$yaml_dot" "$yaml_old"
+done
