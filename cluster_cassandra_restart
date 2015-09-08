@@ -1,0 +1,9 @@
+
+
+
+set -x
+for node in `cluster_ips_ext`
+do
+	ssh $node sudo service cassandra restart
+	sleep 60
+done

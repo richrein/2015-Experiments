@@ -1,7 +1,21 @@
 
 
+if [ x"$1" == x ] ; then
+	echo Missing keyword such as \"seeds\"
+	exit
+fi
+if [ x"$2" == x ] ; then
+	echo Missing value such as: 20 or '\\\"Cluster 1\\\"' 
+	exit
+fi
+property="$1"
+value="$2"
+from_pattern="$property:.*"
+to_pattern="$property: $value"
+
+set -x
 
 for node in `cluster_ips_ext`
 do
-	ssh $node df -h | (printf "%s:    " $node; grep mnt)
+	ssh $node sed -i.bak.$property -e \""s/$from_pattern/$to_pattern/"\" /etc/cassandra/cassandra.yaml
 done
