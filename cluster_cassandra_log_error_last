@@ -1,0 +1,7 @@
+
+
+for node in `cluster_ips_ext`
+do
+	echo ""
+	ssh $node grep ERROR /var/log/cassandra/system.log | tail -n 3 | sed -e "s/^/$node: /"
+done
