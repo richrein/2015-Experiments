@@ -1,0 +1,6 @@
+
+
+for node in `cluster_ips_ext`
+do
+	ssh $node date | sed -e "s/^/$node: /"
+done
